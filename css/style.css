@@ -76,7 +76,7 @@ a {
 
 section {
   height: 600px;
-  background: url(../image/frame.jpg) center center;
+  background: url(../image/frame.jpg) center center / cover;
 }
 
 .container {
@@ -89,8 +89,51 @@ section {
   color: white;
   font-size: 2.2rem;
   font-family: sans-serif;
+  margin-bottom: 32px;
 }
 
 .span1 {
   color: #dfa623;
+}
+.vpP {
+  color: white;
+  font-size: x-large;
+}
+/* *start of the section 2 offer* */
+.offer {
+  padding: 10rem 1rem;
+  background: #eeeeee;
+}
+.offer-list {
+  display: flex;
+  flex: row nowrap;
+  list-style: none;
+  justify-content: space-between;
+  color: black;
+}
+.offer-elem {
+  margin: 1rem;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 23px;
+  box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
+  flex: 1;
+}
+.offer-elem-img {
+  width: 100%;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  height: auto;
+  display: block;
+  box-shadow: 0 0 1.5rem rgba(17, 17, 17, 0.7);
+}
+.offer-elem-text {
+  padding: 2rem;
+  text-align: center;
+}
+.offer-separator {
+  height: 2px;
+  width: 50px;
+  background: #333;
+  margin: 1rem auto;
 }
