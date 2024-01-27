@@ -74,7 +74,7 @@ a {
 
 /** the begine of section one  **/
 
-section {
+.vpcontainer {
   height: 600px;
   background: url(../image/frame.jpg) center center / cover;
 }
@@ -108,7 +108,7 @@ section {
   display: flex;
   flex: row nowrap;
   list-style: none;
-  justify-content: space-between;
+  justify-content:space-between;
   color: black;
 }
 .offer-elem {
@@ -118,6 +118,8 @@ section {
   border-radius: 23px;
   box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
   flex: 1;
+
+
 }
 .offer-elem-img {
   width: 100%;
@@ -136,4 +138,30 @@ section {
   width: 50px;
   background: #333;
   margin: 1rem auto;
+}
+
+/* * the start section of equipe section number "3"  * */
+
+.equipe {
+  height: 500px;
+}
+
+.equipe-img {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+.equipe-defintion {
+  background-color: #333333;
+  height: 500px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 40px;
+  letter-spacing: 2px;
+  line-height: 2em;
+  font-weight: 600;
+  
 }
